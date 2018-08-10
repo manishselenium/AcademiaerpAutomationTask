@@ -5,8 +5,10 @@
     <classes>
       <class name="TestSuit.TestCasesSignInAcedmia">
         <methods>
-          <include name="LoginWithBlankPasswordOnly"/>
+          <include name="CloseBrowser"/>
+          <include name="LoginWithBlankUserNameOnly"/>
           <include name="OpenBrowser"/>
+          <include name="LoginWithWrongUsernamePassword"/>
         </methods>
       </class> <!-- TestSuit.TestCasesSignInAcedmia -->
     </classes>

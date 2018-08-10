@@ -2,8 +2,6 @@ package PagesAcademia;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-
-import Utils.ExcelUtils1;
 import Utils.ExcelUtilsAcedemia;
 import Utils.WrappeForGenericMethodAcademia;
 
@@ -17,8 +15,8 @@ public class SignInPage {
 
 	public void WrongUserNamePassword(WebDriver driver) throws Exception {
 
-		String Username = ExcelUtils1.GetCellData(3, 0);
-		String Password = ExcelUtils1.GetCellData(3, 1);
+		String Username = ExcelUtilsAcedemia.GetCellData(3, 0);
+		String Password = ExcelUtilsAcedemia.GetCellData(3, 1);
 
 		Action.Sendkeys(driver, user, Username);
 		Action.Sendkeys(driver, password, Password);
@@ -34,7 +32,7 @@ public class SignInPage {
 	}
 
 	public void LoginWithBlankUserName(WebDriver driver) throws Exception {
-		String Password = ExcelUtils1.GetCellData(3, 1);
+		String Password = ExcelUtilsAcedemia.GetCellData(3, 1);
 
 		Action.Sendkeys(driver, user, "");
 		Action.Sendkeys(driver, password, Password);
@@ -43,7 +41,7 @@ public class SignInPage {
 
 	public void LoginWithBlankPassword(WebDriver driver) throws Exception {
 
-		String Username = ExcelUtils1.GetCellData(3, 0);
+		String Username = ExcelUtilsAcedemia.GetCellData(3, 0);
 
 		Action.Sendkeys(driver, user, Username);
 		Action.Sendkeys(driver, password, "");

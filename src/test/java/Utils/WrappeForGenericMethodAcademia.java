@@ -39,4 +39,6 @@ public class WrappeForGenericMethodAcademia {
 
 		driver.findElement(by).clear();
 	}
+	
+	
 }

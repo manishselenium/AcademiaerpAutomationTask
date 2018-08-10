@@ -2,16 +2,14 @@ package TestSuit;
 
 import java.io.IOException;
 import java.util.Properties;
-
 import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
-
 import PagesAcademia.SignInPage;
-import Utils.ReadPropertieFile;
 import Utils.ReadPropertiesFileAcedmia;
 
 public class TestCasesSignInAcedmia {
@@ -87,4 +85,9 @@ public class TestCasesSignInAcedmia {
 
 	}
 
+	@AfterTest
+	public void CloseBrowser() {
+		LoginPageObj.CloseBrowser(driver);
+
+	}
 }
