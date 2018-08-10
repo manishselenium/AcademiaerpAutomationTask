@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35044" started-at="2018-08-10T04:46:38Z" finished-at="2018-08-10T04:47:13Z">
+  <suite name="Default suite" duration-ms="34724" started-at="2018-08-10T04:53:26Z" finished-at="2018-08-10T04:54:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35044" started-at="2018-08-10T04:46:38Z" finished-at="2018-08-10T04:47:13Z">
+    <test name="Default test" duration-ms="34724" started-at="2018-08-10T04:53:26Z" finished-at="2018-08-10T04:54:01Z">
       <class name="TestSuit.TestCasesSignInAcedmia">
-        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:TestSuit.TestCasesSignInAcedmia@bd4dc25]" name="OpenBrowser" is-config="true" duration-ms="7436" started-at="2018-08-10T10:16:38Z" finished-at="2018-08-10T10:16:46Z">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:TestSuit.TestCasesSignInAcedmia@bd4dc25]" name="OpenBrowser" is-config="true" duration-ms="6524" started-at="2018-08-10T10:23:26Z" finished-at="2018-08-10T10:23:33Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- OpenBrowser -->
-        <test-method status="PASS" signature="LoginWithWrongUsernamePassword()[pri:0, instance:TestSuit.TestCasesSignInAcedmia@bd4dc25]" name="LoginWithWrongUsernamePassword" duration-ms="11329" started-at="2018-08-10T10:16:46Z" finished-at="2018-08-10T10:16:57Z">
+        <test-method status="PASS" signature="LoginWithWrongUsernamePassword()[pri:0, instance:TestSuit.TestCasesSignInAcedmia@bd4dc25]" name="LoginWithWrongUsernamePassword" duration-ms="11498" started-at="2018-08-10T10:23:33Z" finished-at="2018-08-10T10:23:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithWrongUsernamePassword -->
-        <test-method status="PASS" signature="LoginWithBlankUsernamePassword()[pri:0, instance:TestSuit.TestCasesSignInAcedmia@bd4dc25]" name="LoginWithBlankUsernamePassword" duration-ms="5252" started-at="2018-08-10T10:16:57Z" finished-at="2018-08-10T10:17:02Z">
+        <test-method status="PASS" signature="LoginWithBlankUsernamePassword()[pri:0, instance:TestSuit.TestCasesSignInAcedmia@bd4dc25]" name="LoginWithBlankUsernamePassword" duration-ms="5347" started-at="2018-08-10T10:23:44Z" finished-at="2018-08-10T10:23:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithBlankUsernamePassword -->
-        <test-method status="PASS" signature="LoginWithBlankUserNameOnly()[pri:0, instance:TestSuit.TestCasesSignInAcedmia@bd4dc25]" name="LoginWithBlankUserNameOnly" duration-ms="5457" started-at="2018-08-10T10:17:02Z" finished-at="2018-08-10T10:17:08Z">
+        <test-method status="PASS" signature="LoginWithBlankUserNameOnly()[pri:0, instance:TestSuit.TestCasesSignInAcedmia@bd4dc25]" name="LoginWithBlankUserNameOnly" duration-ms="5557" started-at="2018-08-10T10:23:50Z" finished-at="2018-08-10T10:23:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithBlankUserNameOnly -->
-        <test-method status="PASS" signature="LoginWithBlankPasswordOnly()[pri:0, instance:TestSuit.TestCasesSignInAcedmia@bd4dc25]" name="LoginWithBlankPasswordOnly" duration-ms="5398" started-at="2018-08-10T10:17:08Z" finished-at="2018-08-10T10:17:13Z">
+        <test-method status="PASS" signature="LoginWithBlankPasswordOnly()[pri:0, instance:TestSuit.TestCasesSignInAcedmia@bd4dc25]" name="LoginWithBlankPasswordOnly" duration-ms="5533" started-at="2018-08-10T10:23:55Z" finished-at="2018-08-10T10:24:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginWithBlankPasswordOnly -->
-        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestSuit.TestCasesSignInAcedmia@bd4dc25]" name="CloseBrowser" is-config="true" duration-ms="145" started-at="2018-08-10T10:17:13Z" finished-at="2018-08-10T10:17:13Z">
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestSuit.TestCasesSignInAcedmia@bd4dc25]" name="CloseBrowser" is-config="true" duration-ms="221" started-at="2018-08-10T10:24:01Z" finished-at="2018-08-10T10:24:01Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
